@@ -4,6 +4,8 @@ import Home from "./components/home";
 import Recipes from "./components/recipes";
 import Voice from "./components/voice";
 import Navbar from "./components/navbar";
+import Login from "./components/login";
+import Register from "./components/register";
 import "./App.css";
 
 class App extends Component {
@@ -58,12 +60,24 @@ class App extends Component {
                 Voice
               </Link>
             </li>
+            <li>
+              <Link className="nav-link" to="/login">
+                Login
+              </Link>
+            </li>
+            <li>
+              <Link className="nav-link" to="/register">
+                Register
+              </Link>
+            </li>
           </ul>
         </div>
         <div id="display">
           <Route exact path="/" component={Home} />
           <Route path="/recipes" component={Recipes} />
           <Route path="/voice" component={Voice} />
+          <Route path="/login" component={Login} />
+          <Route path="/register" component={Register} />
         </div>
       </Router>
     );
