@@ -22,9 +22,15 @@ class Login extends Component {
       signInWithGoogle,
     } = this.props;
 
+    if (user){
+      global.name = "👋 Hello " + user.displayName.split(" ",1) + "!";
+    }
+    else {
+      global.name = "🍔 Welcome to ChefBoost!";
+    }
+
     return (
       <div className="login">
-      {user && <p>Hello, {user.displayName}</p>}
       {!user && <p>Please sign in.</p>}
       {
         user

@@ -5,7 +5,7 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
-        <h1>Good morning, NAME!</h1>
+        <h1>{global.name}</h1>
         <h2>Recipe</h2>
         <div className="home-recipes-container">
           <Recipecard
