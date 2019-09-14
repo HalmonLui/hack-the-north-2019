@@ -11,9 +11,9 @@ import "./App.css";
 class App extends Component {
   openSlideMenu = function() {
     var element = document.getElementById("side-menu");
-    element.style.width = "10%";
+    element.style.width = "250px";
     var disp = document.getElementById("display");
-    disp.style.marginLeft = "10%";
+    disp.style.marginLeft = "250px";
     var burger = document.getElementById("hamburger");
     burger.style.visibility = "hidden";
   };
@@ -29,6 +29,10 @@ class App extends Component {
     return (
       <Router>
         <nav className="navbar">
+          <div className="userbar">
+            <p>Notifs</p>
+            <p>Profile</p>
+          </div>
           <span className="open-slide">
             <p id="hamburger" onClick={this.openSlideMenu}>
               <svg width="30" height="30">
@@ -72,7 +76,8 @@ class App extends Component {
             </li>
           </ul>
         </div>
-        <div id="display">
+
+        <div id="display" onClick={this.closeSlideMenu}>
           <Route exact path="/" component={Home} />
           <Route path="/recipes" component={Recipes} />
           <Route path="/voice" component={Voice} />
