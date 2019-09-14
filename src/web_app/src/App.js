@@ -9,18 +9,26 @@ import "./App.css";
 class App extends Component {
   openSlideMenu = function() {
     var element = document.getElementById("side-menu");
-    element.style.width = "250px";
+    element.style.width = "10%";
+    var disp = document.getElementById("display");
+    disp.style.marginLeft = "10%";
+    var burger = document.getElementById("hamburger");
+    burger.style.visibility = "hidden";
   };
   closeSlideMenu = function() {
     var element = document.getElementById("side-menu");
     element.style.width = "0px";
+    var disp = document.getElementById("display");
+    disp.style.marginLeft = "0px";
+    var burger = document.getElementById("hamburger");
+    burger.style.visibility = "visible";
   };
   render() {
     return (
       <Router>
         <nav className="navbar">
           <span className="open-slide">
-            <p onClick={this.openSlideMenu}>
+            <p id="hamburger" onClick={this.openSlideMenu}>
               <svg width="30" height="30">
                 <path d="M0,5 30,5" stroke="#000" stroke-width="5" />
                 <path d="M0,14 30,14" stroke="#000" stroke-width="5" />
@@ -36,17 +44,23 @@ class App extends Component {
           </p>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link className="nav-link" to="/">
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/recipes">Recipes</Link>
+              <Link className="nav-link" to="/recipes">
+                Recipes
+              </Link>
             </li>
             <li>
-              <Link to="/voice">Voice</Link>
+              <Link className="nav-link" to="/voice">
+                Voice
+              </Link>
             </li>
           </ul>
         </div>
-        <div>
+        <div id="display">
           <Route exact path="/" component={Home} />
           <Route path="/recipes" component={Recipes} />
           <Route path="/voice" component={Voice} />
