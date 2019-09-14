@@ -1,54 +1,32 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Home from "./components/home";
+import Recipes from "./components/recipes";
+import Voice from "./components/voice";
 
 function App() {
   return (
     <Router>
       <div>
         <Header />
-
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/topics" component={Topics} />
+        <Route exact path="/" component={Homepage} />
+        <Route path="/recipes" component={Recipepage} />
+        <Route path="/voice" component={Voicepage} />
       </div>
     </Router>
   );
 }
 
-function Home() {
-  return <h2>Home</h2>;
+function Homepage() {
+  return <Home />;
 }
 
-function About() {
-  return <h2>About</h2>;
+function Recipepage() {
+  return <Recipes />;
 }
 
-function Topic({ match }) {
-  return <h3>Requested Param: {match.params.id}</h3>;
-}
-
-function Topics({ match }) {
-  return (
-    <div>
-      <h2>Topics</h2>
-
-      <ul>
-        <li>
-          <Link to={`${match.url}/components`}>Components</Link>
-        </li>
-        <li>
-          <Link to={`${match.url}/props-v-state`}>Props v. State</Link>
-        </li>
-      </ul>
-
-      <Route path={`${match.path}/:id`} component={Topic} />
-      <Route
-        exact
-        path={match.path}
-        render={() => <h3>Please select a topic.</h3>}
-      />
-    </div>
-  );
+function Voicepage() {
+  return <Voice />;
 }
 
 function Header() {
@@ -58,10 +36,10 @@ function Header() {
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/about">About</Link>
+        <Link to="/recipes">Recipes</Link>
       </li>
       <li>
-        <Link to="/topics">Topics</Link>
+        <Link to="/voice">Voice</Link>
       </li>
     </ul>
   );
