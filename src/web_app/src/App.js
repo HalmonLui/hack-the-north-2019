@@ -77,7 +77,7 @@ class App extends Component {
           </ul>
         </div>
 
-        <div id="display">
+        <div id="display" onClick={this.closeSlideMenu}>
           <Route exact path="/" component={Home} />
           <Route path="/recipes" component={Recipes} />
           <Route path="/voice" component={Voice} />
