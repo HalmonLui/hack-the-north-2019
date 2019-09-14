@@ -17,6 +17,9 @@
   padding-top: 60px;
   transition: 0.5s;
 }
+#hamburger {
+  margin-left: 1%;
+}
 #hamburger:hover {
   cursor: pointer;
 }
@@ -72,12 +75,22 @@
   display: flex;
 }
 
+/*****RECIPESPAGE*****/
+.recipes {
+  margin: 1%;
+}
+
 /*****RECIPECARD*****/
 .recipecard {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   margin: 1%;
   padding: 1%;
   border: 1px solid black;
 }
 .recipecard-image {
+  object-fit: cover;
   width: 100%;
+  height: 40%;
 }
