@@ -10,6 +10,15 @@ body {
 }
 
 /*****NAVBAR*****/
+.userbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.userbar p {
+  margin: 1%;
+  text-align: right;
+}
 .side-nav {
   height: 100%;
   width: 0;
@@ -84,8 +93,7 @@ body {
   flex-direction: column;
 }
 .home-recipes-container {
-  display: flex;
-  height: 18vh;
+  column-count: 3;
 }
 
 /*****RECIPESPAGE*****/
@@ -96,10 +104,11 @@ body {
 /*****RECIPECARD*****/
 .recipecard {
   display: flex;
-  height: 100%;
+  max-height: 18vh;
   flex: 1;
   flex-direction: row;
-  margin: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
   box-shadow: 0 0 5px #c4cdd5;
 }
 .recipecard-image-container {
@@ -116,9 +125,56 @@ body {
   display: flex;
   flex-direction: column;
 }
+.recipecard-text-container h2 {
+  margin-left: 5%;
+}
 .recipecard-servedata-container {
   display: flex;
 }
+.recipecard-servedata-container p {
+  width: 100%;
+  margin-left: 5%;
+  text-align: left;
+  color: #637381;
+}
 .recipecard-cost-container {
   display: flex;
+}
+.recipecard-cost-container p {
+  width: 100%;
+  text-align: left;
+  margin-left: 5%;
+}
+
+/*****MOBILE COMPATABILITY*****/
+@media (max-width: 568px) {
+  #display {
+    transition: 0.5s;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f9fafb;
+    min-height: 100vh;
+    border-top-left-radius: 25px;
+    color: #454f5b;
+    overflow-x: hidden;
+  }
+
+  .home-recipes-container {
+    column-count: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .recipecard {
+    display: flex;
+    width: 90%;
+    max-height: 18vh;
+    flex: 1;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 0 0 5px #c4cdd5;
+    margin-bottom: 3%;
+  }
 }
