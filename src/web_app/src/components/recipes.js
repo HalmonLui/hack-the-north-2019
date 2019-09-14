@@ -23,11 +23,6 @@ class Recipes extends Component {
             imagesrc="https://d1dxs113ar9ebd.cloudfront.net/225batonrouge/2019/03/225KungFuTea-10.jpg?q=70&crop=faces&fit=crop&w=1200&h=550"
             details="yummy"
           />
-          <Recipecard
-            title="Boba"
-            imagesrc="https://www.918plate.com/wp-content/uploads/2017/10/Boba-Tea-SQ.jpg"
-            details="yummy"
-          />
         </div>
         <h2>Korean</h2>
         <div className="home-recipes-container">
@@ -46,19 +41,9 @@ class Recipes extends Component {
             details="Yommy"
             imagesrc="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/vimdb/270679.jpg"
           />
-          <Recipecard
-            title="Fried Chicken"
-            details="Yommy"
-            imagesrc="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/vimdb/270679.jpg"
-          />
         </div>
         <h2>Italian</h2>
         <div className="home-recipes-container">
-          <Recipecard
-            title="Pasta"
-            details="Yommy"
-            imagesrc="https://www.budgetbytes.com/wp-content/uploads/2013/07/Creamy-Tomato-and-Spinach-Pasta-skillet-1-500x480.jpg"
-          />
           <Recipecard
             title="Pasta"
             details="Yommy"

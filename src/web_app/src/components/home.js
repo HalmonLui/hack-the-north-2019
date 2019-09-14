@@ -5,14 +5,9 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
-        <h1>Welcome to FOOD BOI</h1>
+        <h1>Good morning, NAME!</h1>
         <h2>Recipe</h2>
         <div className="home-recipes-container">
-          <Recipecard
-            title="Pikachu"
-            details="subtleasiantraits"
-            imagesrc="https://i.imgur.com/sohWhy9.jpg"
-          />
           <Recipecard
             title="Pikachu"
             details="subtleasiantraits"
@@ -36,6 +31,37 @@ class Home extends Component {
             details="subtleasiantraits"
             imagesrc="https://i.imgur.com/sohWhy9.jpg"
           />
+          <Recipecard
+            title="Pikachu"
+            details="subtleasiantraits"
+            imagesrc="https://i.imgur.com/sohWhy9.jpg"
+          />
+          <Recipecard
+            title="Pikachu"
+            details="subtleasiantraits"
+            imagesrc="https://i.imgur.com/sohWhy9.jpg"
+          />
+        </div>
+        <h2>Chinese</h2>
+        <div className="home-recipes-container">
+          <Recipecard
+            title="Pikachu"
+            details="subtleasiantraits"
+            imagesrc="https://i.imgur.com/sohWhy9.jpg"
+          />
+          <Recipecard
+            title="Pikachu"
+            details="subtleasiantraits"
+            imagesrc="https://i.imgur.com/sohWhy9.jpg"
+          />
+          <Recipecard
+            title="Pikachu"
+            details="subtleasiantraits"
+            imagesrc="https://i.imgur.com/sohWhy9.jpg"
+          />
+        </div>
+        <h2>Japanese</h2>
+        <div className="home-recipes-container">
           <Recipecard
             title="Pikachu"
             details="subtleasiantraits"
