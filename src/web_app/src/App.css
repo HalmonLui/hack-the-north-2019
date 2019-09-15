@@ -32,6 +32,7 @@ body {
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
+  margin-top: 10%;
 }
 #hamburger {
   margin-left: 1%;
@@ -53,10 +54,24 @@ body {
 }
 .nav-link {
   text-decoration: none;
+  color:white;
+
+
 }
 .nav-link:visited {
-  color: black;
+  color: white;
 }
+#loginbtn {
+  margin-right: 50px;
+  margin-left: 25px;
+}
+#notificationbtn {
+  margin-right: 25px;
+}
+#search {
+  margin-right: 250px;
+}
+
 .side-nav .btn-close {
   position: absolute;
   top: 0;
@@ -72,7 +87,9 @@ body {
   font-size: 36px;
   margin-left: 50px;
 }
-
+li {
+  margin-bottom: 10%;
+}
 /*****DISPLAY*****/
 #display {
   transition: 0.5s;
@@ -167,3 +184,10 @@ body {
     margin-bottom: 3%;
   }
 }
+
+/******IMAGES******/
+  .Logo {
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 10%;
+  }

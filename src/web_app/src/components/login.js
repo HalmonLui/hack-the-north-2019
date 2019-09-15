@@ -31,7 +31,7 @@ class Login extends Component {
 
     return (
       <div className="login">
-      {!user && <p>Please sign in.</p>}
+      {!user && <p>Please sign in here.</p>}
       {
         user
           ? <button onClick={signOut}>Sign out</button>
