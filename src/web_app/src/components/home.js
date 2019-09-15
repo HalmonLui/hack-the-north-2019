@@ -15,6 +15,7 @@ class Home extends Component {
             time="40m"
             cost="9.00"
             rating="4.6"
+            toLink="/pizzasauce"
           />
           <Recipecard
             title="White Cheese Chicken Lasagna"
@@ -23,6 +24,7 @@ class Home extends Component {
             time="1hr 15m"
             cost="14.00"
             rating="4.4"
+            toLink="/lasagna"
           />
           <Recipecard
             title="Double Tomato"
@@ -110,54 +112,54 @@ class Home extends Component {
         </div>
         <h2>Chinese</h2>
         <div className="home-recipes-container">
-        <Recipecard
-          title="Spicy Baked Tofu"
-          imagesrc="https://images.media-allrecipes.com/userphotos/300x300/2258469.jpg"
-          servings="4"
-          time="1h 45m"
-          cost="21.00"
-          rating="4.5"
-        />
-        <Recipecard
-          title="Japanese Chicken Wings"
-          imagesrc="https://images.media-allrecipes.com/userphotos/300x300/4154813.jpg"
-          servings="6"
-          time="1h"
-          cost="18.00"
-          rating="4.7"
-        />
-        <Recipecard
-          title="Mulligatawny Soup I"
-          imagesrc="https://images.media-allrecipes.com/userphotos/300x300/3573231.jpg"
-          servings="6"
-          time="1h 20m"
-          cost="23.00"
-          rating="4.8"
-        />
-        <Recipecard
-          title="Chicken Tikka Masala"
-          imagesrc="https://images.media-allrecipes.com/userphotos/300x300/39905.jpg"
-          servings="4"
-          time="2h 20m"
-          cost="25.00"
-          rating="4.4"
-        />
-        <Recipecard
-          title="The Best Thai Coconut Soup"
-          imagesrc="https://images.media-allrecipes.com/userphotos/300x300/6609476.jpg"
-          servings="8"
-          time="1h 5m"
-          cost="17.00"
-          rating="4.6"
-        />
-        <Recipecard
-          title="Peanut Butter Noodles"
-          imagesrc="https://images.media-allrecipes.com/userphotos/300x300/422062.jpg"
-          servings="4"
-          time="25m"
-          cost="10.00"
-          rating="4"
-        />
+          <Recipecard
+            title="Spicy Baked Tofu"
+            imagesrc="https://images.media-allrecipes.com/userphotos/300x300/2258469.jpg"
+            servings="4"
+            time="1h 45m"
+            cost="21.00"
+            rating="4.5"
+          />
+          <Recipecard
+            title="Japanese Chicken Wings"
+            imagesrc="https://images.media-allrecipes.com/userphotos/300x300/4154813.jpg"
+            servings="6"
+            time="1h"
+            cost="18.00"
+            rating="4.7"
+          />
+          <Recipecard
+            title="Mulligatawny Soup I"
+            imagesrc="https://images.media-allrecipes.com/userphotos/300x300/3573231.jpg"
+            servings="6"
+            time="1h 20m"
+            cost="23.00"
+            rating="4.8"
+          />
+          <Recipecard
+            title="Chicken Tikka Masala"
+            imagesrc="https://images.media-allrecipes.com/userphotos/300x300/39905.jpg"
+            servings="4"
+            time="2h 20m"
+            cost="25.00"
+            rating="4.4"
+          />
+          <Recipecard
+            title="The Best Thai Coconut Soup"
+            imagesrc="https://images.media-allrecipes.com/userphotos/300x300/6609476.jpg"
+            servings="8"
+            time="1h 5m"
+            cost="17.00"
+            rating="4.6"
+          />
+          <Recipecard
+            title="Peanut Butter Noodles"
+            imagesrc="https://images.media-allrecipes.com/userphotos/300x300/422062.jpg"
+            servings="4"
+            time="25m"
+            cost="10.00"
+            rating="4"
+          />
         </div>
         <h2>European</h2>
         <div className="home-recipes-container">

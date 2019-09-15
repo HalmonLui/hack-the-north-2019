@@ -5,6 +5,7 @@ import Recipes from "./components/recipes";
 import Voice from "./components/voice";
 import Navbar from "./components/navbar";
 import Login from "./components/login";
+import Lasagna from "./components/lasagna";
 import "./App.css";
 //import { ReactComponent as Logo } from "./images/logo-with-name.svg"
 import HomeIcon from "./images/home-icon.svg";
@@ -118,6 +119,7 @@ class App extends Component {
           <Route path="/recipes" component={Recipes} />
           <Route path="/voice" component={Voice} />
           <Route path="/login" component={Login} />
+          <Route path="/lasagna" component={Lasagna} />
         </div>
       </Router>
     );
