@@ -4,7 +4,7 @@ class Lasagna extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      step: 0
+      step: 1
     };
   }
   nextStep() {
@@ -36,7 +36,7 @@ class Lasagna extends Component {
         </div>
         <h2>Steps</h2>
         <button onClick={this.nextStep.bind(this)}>Next</button>
-        {this.state.step == "1" && (
+        {this.state.step == 1 && (
           <div>
             <p>
               1. Preheat oven to 350 degrees F (175 degrees C). Bring a large
