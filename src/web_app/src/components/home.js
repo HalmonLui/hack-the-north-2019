@@ -6,7 +6,7 @@ class Home extends Component {
     return (
       <div className="home">
         <h1>{global.name}</h1>
-        <h2>Recipe</h2>
+        <h2>Italian</h2>
         <div className="home-recipes-container">
           <Recipecard
             title="Pikachu"
@@ -39,8 +39,23 @@ class Home extends Component {
             imagesrc="https://i.imgur.com/sohWhy9.jpg"
           />
         </div>
-        <h2>Recently Viewed</h2>
+        <h2>Spanish</h2>
         <div className="home-recipes-container">
+          <Recipecard
+            title="Pikachu"
+            details="subtleasiantraits"
+            imagesrc="https://i.imgur.com/sohWhy9.jpg"
+          />
+          <Recipecard
+            title="Pikachu"
+            details="subtleasiantraits"
+            imagesrc="https://i.imgur.com/sohWhy9.jpg"
+          />
+          <Recipecard
+            title="Pikachu"
+            details="subtleasiantraits"
+            imagesrc="https://i.imgur.com/sohWhy9.jpg"
+          />
           <Recipecard
             title="Pikachu"
             details="subtleasiantraits"
@@ -74,9 +89,39 @@ class Home extends Component {
             details="subtleasiantraits"
             imagesrc="https://i.imgur.com/sohWhy9.jpg"
           />
+          <Recipecard
+            title="Pikachu"
+            details="subtleasiantraits"
+            imagesrc="https://i.imgur.com/sohWhy9.jpg"
+          />
+          <Recipecard
+            title="Pikachu"
+            details="subtleasiantraits"
+            imagesrc="https://i.imgur.com/sohWhy9.jpg"
+          />
+          <Recipecard
+            title="Pikachu"
+            details="subtleasiantraits"
+            imagesrc="https://i.imgur.com/sohWhy9.jpg"
+          />
         </div>
-        <h2>Japanese</h2>
+        <h2>European</h2>
         <div className="home-recipes-container">
+          <Recipecard
+            title="Pikachu"
+            details="subtleasiantraits"
+            imagesrc="https://i.imgur.com/sohWhy9.jpg"
+          />
+          <Recipecard
+            title="Pikachu"
+            details="subtleasiantraits"
+            imagesrc="https://i.imgur.com/sohWhy9.jpg"
+          />
+          <Recipecard
+            title="Pikachu"
+            details="subtleasiantraits"
+            imagesrc="https://i.imgur.com/sohWhy9.jpg"
+          />
           <Recipecard
             title="Pikachu"
             details="subtleasiantraits"
