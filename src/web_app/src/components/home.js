@@ -9,9 +9,12 @@ class Home extends Component {
         <h2>Italian</h2>
         <div className="home-recipes-container">
           <Recipecard
-            title="Pikachu"
-            details="subtleasiantraits"
-            imagesrc="https://i.imgur.com/sohWhy9.jpg"
+            title="Tomato Sauce"
+            imagesrc="https://images.media-allrecipes.com/userphotos/300x300/744818.jpg"
+            servings="6"
+            time="1h 30m"
+            cost="15.00"
+            rating="4.5"
           />
           <Recipecard
             title="Pikachu"

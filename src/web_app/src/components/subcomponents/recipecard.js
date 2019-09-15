@@ -17,12 +17,12 @@ class Recipecard extends Component {
         <div className="recipecard-text-container">
           <h2>{this.props.title}</h2>
           <div className="recipecard-servedata-container">
-            <p>{this.props.details}</p>
-            <p>{this.props.details}</p>
+            <p>{this.props.servings} Servings</p>
+            <p>{this.props.time}</p>
           </div>
           <div className="recipecard-cost-container">
-            <p>$20</p>
-            <p>*****</p>
+            <p>${this.props.cost}</p>
+            <p>{this.props.rating}/5</p>
           </div>
         </div>
       </div>
