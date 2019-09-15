@@ -24,3 +24,7 @@ yarn-debug.log*
 yarn-error.log*
 
 firebaseConfig.js
+<<<<<<< HEAD
+=======
+serviceAccount.json
+>>>>>>> pipeline
