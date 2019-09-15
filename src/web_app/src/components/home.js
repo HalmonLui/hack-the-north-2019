@@ -23,6 +23,21 @@ class Home extends Component {
             details="subtleasiantraits"
             imagesrc="https://i.imgur.com/sohWhy9.jpg"
           />
+          <Recipecard
+            title="Pikachu"
+            details="subtleasiantraits"
+            imagesrc="https://i.imgur.com/sohWhy9.jpg"
+          />
+          <Recipecard
+            title="Pikachu"
+            details="subtleasiantraits"
+            imagesrc="https://i.imgur.com/sohWhy9.jpg"
+          />
+          <Recipecard
+            title="Pikachu"
+            details="subtleasiantraits"
+            imagesrc="https://i.imgur.com/sohWhy9.jpg"
+          />
         </div>
         <h2>Recently Viewed</h2>
         <div className="home-recipes-container">
