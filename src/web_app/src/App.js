@@ -6,6 +6,15 @@ import Voice from "./components/voice";
 import Navbar from "./components/navbar";
 import Login from "./components/login";
 import "./App.css";
+//import { ReactComponent as Logo } from "./images/logo-with-name.svg"
+import HomeIcon from "./images/home-icon.svg";
+import DiscoverIcon from "./images/discover-icon.svg";
+import FavoritesIcon from "./images/favorites-icon.svg";
+import OrdersIcon from "./images/orders-icon.svg";
+import Logo from "./images/Logo.png";
+import X from "./images/timer-exit-icon.png";
+import UserImg from "./images/user-profile.svg";
+import SearchIcon from "./images/search-icon.svg";
 
 class App extends Component {
   openSlideMenu = function() {
@@ -27,10 +36,18 @@ class App extends Component {
   render() {
     return (
       <Router>
+      <img src={Logo} className="Logo" alt="Logo"/>
         <nav className="navbar">
           <div className="userbar">
-            <p>Notifs</p>
-            <p>Profile</p>
+            <Link className="nav-link" to="/search">
+              <img src={SearchIcon} alt="Search" className="nav-icon" id="search"/>
+            </Link>
+            <Link className="nav-link" to="/notifications" id="notificationbtn">
+              Notifications
+            </Link>
+            <Link className="nav-link" to="/login">
+              <img src={UserImg} alt="Login" className="nav-icon" id="loginbtn"/>
+            </Link>
           </div>
           <span className="open-slide">
             <p id="hamburger" onClick={this.openSlideMenu}>
@@ -44,28 +61,26 @@ class App extends Component {
         </nav>
 
         <div id="side-menu" className="side-nav">
-          <p className="btn-close" onClick={this.closeSlideMenu}>
-            &times;
-          </p>
+          <img src={X} alt="Close" className="btn-close" onClick={this.closeSlideMenu}/>
           <ul>
             <li>
               <Link className="nav-link" to="/">
-                Home
+                <img src={HomeIcon} alt="Home" className="nav-icon"/> &nbsp;Home
               </Link>
             </li>
             <li>
               <Link className="nav-link" to="/recipes">
-                Recipes
+                <img src={DiscoverIcon} alt="Discover" className="nav-icon"/> &nbsp;Discover
               </Link>
             </li>
             <li>
               <Link className="nav-link" to="/voice">
-                Voice
+                <img src={FavoritesIcon} alt="Favorites" className="nav-icon"/> &nbsp;Favorites
               </Link>
             </li>
             <li>
-              <Link className="nav-link" to="/login">
-                Login
+              <Link className="nav-link" to="/orders">
+                <img src={OrdersIcon} alt="Favorites" className="nav-icon"/> &nbsp;Orders
               </Link>
             </li>
           </ul>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>search-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1088.000000, -145.000000)" fill="#000000">
+            <g id="Search-input:-Icon/01-Normal/Empty" transform="translate(1071.000000, 132.000000)">
+                <g id="Search-icon" transform="translate(17.000000, 13.000000)">
+                    <path d="M14,13.295 L10.225,9.5 C12.0996648,7.2380802 11.8657415,3.90219848 9.69374842,1.92404398 C7.52175532,-0.0541105278 4.17859243,0.0239205462 2.10125649,2.10125649 C0.0239205462,4.17859243 -0.0541105278,7.52175532 1.92404398,9.69374842 C3.90219848,11.8657415 7.2380802,12.0996648 9.5,10.225 L13.295,14 L14,13.295 Z M1.5,6 C1.5,3.51471863 3.51471863,1.5 6,1.5 C8.48528137,1.5 10.5,3.51471863 10.5,6 C10.5,8.48528137 8.48528137,10.5 6,10.5 C3.51471863,10.5 1.5,8.48528137 1.5,6 Z" id="search-icon"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="22px" viewBox="0 0 16 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>user-profile</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1366.000000, -22.000000)" fill="#FFFFFF">
+            <g id="Top-bar-icons" transform="translate(1290.000000, 22.000000)">
+                <g id="icons/tools/ibm-user-link" transform="translate(76.000000, 0.000000)">
+                    <path d="M8,2 C10.0710678,2 11.75,3.67893219 11.75,5.75 C11.75,7.82106781 10.0710678,9.5 8,9.5 C5.92893219,9.5 4.25,7.82106781 4.25,5.75 C4.25235588,3.67990881 5.92990881,2.00235588 8,2 L8,2 Z M8,0.5 C5.10050506,0.5 2.75,2.85050506 2.75,5.75 C2.75,8.64949494 5.10050506,11 8,11 C10.8994949,11 13.25,8.64949494 13.25,5.75 C13.25,2.85050506 10.8994949,0.5 8,0.5 Z M15.5,21.5 L14,21.5 L14,17.75 C13.9975616,15.679943 12.320057,14.0024384 10.25,14 L5.75,14 C3.67994303,14.0024384 2.00243835,15.679943 2,17.75 L2,21.5 L0.5,21.5 L0.5,17.75 C0.503388954,14.85191 2.85190997,12.503389 5.75,12.5 L10.25,12.5 C13.14809,12.503389 15.496611,14.85191 15.5,17.75 L15.5,21.5 Z" id="user-profile"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

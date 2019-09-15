@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="22px" viewBox="0 0 18 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>home-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-38.000000, -226.000000)" fill="#FFFFFF">
+            <g id="icons/tools/ibm-user-link-copy-3" transform="translate(38.000000, 226.000000)">
+                <path d="M3.75,0.5 L5.25,0.5 L5.25,8 L3.75,8 L3.75,0.5 Z M7.5,0.5 L7.5,7.25 C7.5,8.9 6.15,10.25 4.5,10.25 C2.85,10.25 1.5,8.9 1.5,7.25 L1.5,0.5 L0,0.5 L0,7.25 C0,9.5 1.575,11.3 3.75,11.675 L3.75,21.5 L5.25,21.5 L5.25,11.675 C7.425,11.3 9,9.5 9,7.25 L9,0.5 L7.5,0.5 Z M14.25,21.5 L12.75,21.5 L12.75,0.5 L13.5,0.5 C17.025,0.5 18,3.425 18,5 L18,12.5 C18,13.4 17.4,14 16.5,14 L14.25,14 L14.25,21.5 Z M14.25,12.5 L16.5,12.5 L16.5,5 C16.5,4.7 16.425,2.525 14.25,2.075 L14.25,12.5 Z" id="home-icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

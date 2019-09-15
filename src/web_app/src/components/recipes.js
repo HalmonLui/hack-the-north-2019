@@ -5,7 +5,7 @@ class Recipes extends Component {
   render() {
     return (
       <div className="recipes">
-        <h1>Recipes</h1>
+        <h1>Discover</h1><br></br>
         <h2>Chinese</h2>
         <div className="home-recipes-container">
           <Recipecard
